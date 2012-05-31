@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "JNV", "http://localhost/JNV", "{811D5AFE-63DB-4C16-B861-461C5677EE31}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		ProjectReferences = "{86955CD7-255F-4828-BCF2-154CF00BE9F2}|BusinessLayer.dll;{7B11AB49-106D-4E66-AF58-89C48CDAF9C6}|DAC.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/JNV"
+		Debug.AspNetCompiler.PhysicalPath = "D:\JNVSchool\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\JNV\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/JNV"
+		Release.AspNetCompiler.PhysicalPath = "D:\JNVSchool\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\JNV\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "D:\JNVSchool\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAC", "DAC\DAC\DAC.csproj", "{7B11AB49-106D-4E66-AF58-89C48CDAF9C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayer", "BusinessLayer\BusinessLayer\BusinessLayer.csproj", "{86955CD7-255F-4828-BCF2-154CF00BE9F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Release|.NET = Release|.NET
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{811D5AFE-63DB-4C16-B861-461C5677EE31}.Debug|.NET.ActiveCfg = Debug|.NET
+		{811D5AFE-63DB-4C16-B861-461C5677EE31}.Debug|.NET.Build.0 = Debug|.NET
+		{811D5AFE-63DB-4C16-B861-461C5677EE31}.Debug|Any CPU.ActiveCfg = Debug|.NET
+		{811D5AFE-63DB-4C16-B861-461C5677EE31}.Debug|Mixed Platforms.ActiveCfg = Debug|.NET
+		{811D5AFE-63DB-4C16-B861-461C5677EE31}.Debug|Mixed Platforms.Build.0 = Debug|.NET
+		{811D5AFE-63DB-4C16-B861-461C5677EE31}.Release|.NET.ActiveCfg = Debug|.NET
+		{811D5AFE-63DB-4C16-B861-461C5677EE31}.Release|.NET.Build.0 = Debug|.NET
+		{811D5AFE-63DB-4C16-B861-461C5677EE31}.Release|Any CPU.ActiveCfg = Debug|.NET
+		{811D5AFE-63DB-4C16-B861-461C5677EE31}.Release|Mixed Platforms.ActiveCfg = Debug|.NET
+		{811D5AFE-63DB-4C16-B861-461C5677EE31}.Release|Mixed Platforms.Build.0 = Debug|.NET
+		{7B11AB49-106D-4E66-AF58-89C48CDAF9C6}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{7B11AB49-106D-4E66-AF58-89C48CDAF9C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B11AB49-106D-4E66-AF58-89C48CDAF9C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B11AB49-106D-4E66-AF58-89C48CDAF9C6}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{7B11AB49-106D-4E66-AF58-89C48CDAF9C6}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{7B11AB49-106D-4E66-AF58-89C48CDAF9C6}.Release|.NET.ActiveCfg = Release|Any CPU
+		{7B11AB49-106D-4E66-AF58-89C48CDAF9C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B11AB49-106D-4E66-AF58-89C48CDAF9C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B11AB49-106D-4E66-AF58-89C48CDAF9C6}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{7B11AB49-106D-4E66-AF58-89C48CDAF9C6}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{86955CD7-255F-4828-BCF2-154CF00BE9F2}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{86955CD7-255F-4828-BCF2-154CF00BE9F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86955CD7-255F-4828-BCF2-154CF00BE9F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86955CD7-255F-4828-BCF2-154CF00BE9F2}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{86955CD7-255F-4828-BCF2-154CF00BE9F2}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{86955CD7-255F-4828-BCF2-154CF00BE9F2}.Release|.NET.ActiveCfg = Release|Any CPU
+		{86955CD7-255F-4828-BCF2-154CF00BE9F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86955CD7-255F-4828-BCF2-154CF00BE9F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86955CD7-255F-4828-BCF2-154CF00BE9F2}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{86955CD7-255F-4828-BCF2-154CF00BE9F2}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

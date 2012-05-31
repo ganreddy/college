@@ -1,0 +1,175 @@
+﻿body 
+{
+	background-color:#dceaf7;
+	
+}
+.heading
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    TEXT-TRANSFORM: capitalize;
+    COLOR:   #ffffff;
+ FONT-FAMILY: Arial;
+    BACKGROUND-COLOR:#8cb2de;
+    text-align:center
+  
+   
+}
+.subhead
+{
+	FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+}
+.adtdcls
+{
+ FONT-SIZE: 12px;
+    FONT-FAMILY:Arial;
+    background-color:#EEE8AA ;
+}
+.tdcls
+{
+    FONT-SIZE: 12px;
+    FONT-FAMILY:Arial;
+    background-color:#dceaf7 ;
+     
+}
+.subheading
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    TEXT-TRANSFORM: capitalize;
+    COLOR: #000000;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: #D2B48C;
+    text-align:center 
+}
+.header{
+	color:#3C8C06;
+	font-size:14px;
+	letter-spacing: -1px;
+}
+
+.gridviewheader
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+	background: #245BD9; 	
+}
+
+.gridviewheader a
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: white;
+	text-decoration: underline;	
+}
+
+.gridviewheader a:hover
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: red;
+	text-decoration: none;
+}
+
+.gridviewitem
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: black;
+	background: #EFF3FB;
+}
+
+.gridviewitem a
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: blue;
+	text-decoration: underline;	
+}
+.gridviewitem a:link {
+	text-decoration: none;
+}
+.gridviewitem a:visited {
+	text-decoration: none;
+	color: blue;
+}
+.gridviewitem a:hover {
+	text-decoration: underline;
+	color: #00FF66;
+}
+.gridviewitem a:active {
+	text-decoration: none;
+	color: #FF33CC;
+}
+.gridviewalternatingitem
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: black;
+	background: #EEEEEE;
+}
+
+.gridviewalternatingitem a
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: blue;
+	text-decoration: underline;	
+}
+
+.gridviewfooter
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: white;
+	text-decoration: none;
+	background: #245BD9;
+}
+
+.gridviewfooter a
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: white;
+	text-decoration: underline;		
+}
+
+.gridviewfooter a:hover
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: red;
+	text-decoration: none;
+}
+
+.Link
+{
+}
+.txtcls
+{
+	
+}	
+a {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #CC0000;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+a:hover {
+	text-decoration: underline;
+	color: #00FF66;
+}
+a:active {
+	text-decoration: none;
+	color: #FF33CC;
+}

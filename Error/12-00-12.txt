@@ -1,0 +1,51 @@
+
+LogEntry :
+01/12/2012 12:07:49
+Error Message:String or binary data would be truncated.
+The statement has been terminated.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+01/12/2012 12:12:47
+Error Message:String or binary data would be truncated.
+The statement has been terminated.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+01/12/2012 12:47:30
+Error Message:String or binary data would be truncated.
+The statement has been terminated.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+02/12/2012 10:39:06
+Error Message:A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+02/12/2012 10:39:30
+Error Message:A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+02/12/2012 10:54:21
+Error Message:A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+02/12/2012 10:55:35
+Error Message:Login failed for user 'sa'.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+02/12/2012 10:55:44
+Error Message:Login failed for user 'sa'.
+Error in:System.Web.HttpApplicationState
+---------------

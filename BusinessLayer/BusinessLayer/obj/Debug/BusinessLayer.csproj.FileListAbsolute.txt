@@ -1,0 +1,82 @@
+E:\Chakri\JNV_Prototype\BusinessLayer\BusinessLayer\bin\Debug\BusinessLayer.dll
+E:\Chakri\JNV_Prototype\BusinessLayer\BusinessLayer\bin\Debug\BusinessLayer.pdb
+E:\Chakri\JNV_Prototype\BusinessLayer\BusinessLayer\bin\Debug\DAC.dll
+E:\Chakri\JNV_Prototype\BusinessLayer\BusinessLayer\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+E:\Chakri\JNV_Prototype\BusinessLayer\BusinessLayer\bin\Debug\Microsoft.ApplicationBlocks.Data.pdb
+E:\Chakri\JNV_Prototype\BusinessLayer\BusinessLayer\bin\Debug\Microsoft.ApplicationBlocks.Data.xml
+E:\Chakri\JNV_Prototype\BusinessLayer\BusinessLayer\bin\Debug\DAC.pdb
+E:\Chakri\JNV_Prototype\BusinessLayer\BusinessLayer\obj\Debug\ResolveAssemblyReference.cache
+E:\Chakri\JNV_Prototype\BusinessLayer\BusinessLayer\obj\Debug\BusinessLayer.dll
+E:\Chakri\JNV_Prototype\BusinessLayer\BusinessLayer\obj\Debug\BusinessLayer.pdb
+F:\Chakri\jnv\JNV_Prototype\BusinessLayer\BusinessLayer\bin\Debug\BusinessLayer.dll
+F:\Chakri\jnv\JNV_Prototype\BusinessLayer\BusinessLayer\bin\Debug\BusinessLayer.pdb
+F:\Chakri\jnv\JNV_Prototype\BusinessLayer\BusinessLayer\bin\Debug\DAC.dll
+F:\Chakri\jnv\JNV_Prototype\BusinessLayer\BusinessLayer\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+F:\Chakri\jnv\JNV_Prototype\BusinessLayer\BusinessLayer\bin\Debug\DAC.pdb
+F:\Chakri\jnv\JNV_Prototype\BusinessLayer\BusinessLayer\obj\Debug\ResolveAssemblyReference.cache
+F:\Chakri\jnv\JNV_Prototype\BusinessLayer\BusinessLayer\obj\Debug\BusinessLayer.dll
+F:\Chakri\jnv\JNV_Prototype\BusinessLayer\BusinessLayer\obj\Debug\BusinessLayer.pdb
+E:\JNVSchool\BusinessLayer\BusinessLayer\bin\Debug\BusinessLayer.dll
+E:\JNVSchool\BusinessLayer\BusinessLayer\bin\Debug\BusinessLayer.pdb
+E:\JNVSchool\BusinessLayer\BusinessLayer\bin\Debug\DAC.dll
+E:\JNVSchool\BusinessLayer\BusinessLayer\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+E:\JNVSchool\BusinessLayer\BusinessLayer\bin\Debug\DAC.pdb
+E:\JNVSchool\BusinessLayer\BusinessLayer\obj\Debug\ResolveAssemblyReference.cache
+E:\JNVSchool\BusinessLayer\BusinessLayer\obj\Debug\BusinessLayer.dll
+E:\JNVSchool\BusinessLayer\BusinessLayer\obj\Debug\BusinessLayer.pdb
+D:\JNVSchool\BusinessLayer\BusinessLayer\bin\Debug\BusinessLayer.dll
+D:\JNVSchool\BusinessLayer\BusinessLayer\bin\Debug\BusinessLayer.pdb
+D:\JNVSchool\BusinessLayer\BusinessLayer\bin\Debug\DAC.dll
+D:\JNVSchool\BusinessLayer\BusinessLayer\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+D:\JNVSchool\BusinessLayer\BusinessLayer\bin\Debug\DAC.pdb
+D:\JNVSchool\BusinessLayer\BusinessLayer\obj\Debug\ResolveAssemblyReference.cache
+D:\JNVSchool\BusinessLayer\BusinessLayer\obj\Debug\BusinessLayer.dll
+D:\JNVSchool\BusinessLayer\BusinessLayer\obj\Debug\BusinessLayer.pdb
+E:\softwares\JNVSchool\JNVSchool\BusinessLayer\BusinessLayer\bin\Debug\BusinessLayer.dll
+E:\softwares\JNVSchool\JNVSchool\BusinessLayer\BusinessLayer\bin\Debug\BusinessLayer.pdb
+E:\softwares\JNVSchool\JNVSchool\BusinessLayer\BusinessLayer\bin\Debug\DAC.dll
+E:\softwares\JNVSchool\JNVSchool\BusinessLayer\BusinessLayer\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+E:\softwares\JNVSchool\JNVSchool\BusinessLayer\BusinessLayer\bin\Debug\DAC.pdb
+E:\softwares\JNVSchool\JNVSchool\BusinessLayer\BusinessLayer\obj\Debug\ResolveAssemblyReference.cache
+E:\softwares\JNVSchool\JNVSchool\BusinessLayer\BusinessLayer\obj\Debug\BusinessLayer.dll
+E:\softwares\JNVSchool\JNVSchool\BusinessLayer\BusinessLayer\obj\Debug\BusinessLayer.pdb
+D:\Narendra\Narendra\JNV Projects\JNVSchool_1stNov\JNVSchool_1stNov\BusinessLayer\BusinessLayer\bin\Debug\BusinessLayer.dll
+D:\Narendra\Narendra\JNV Projects\JNVSchool_1stNov\JNVSchool_1stNov\BusinessLayer\BusinessLayer\bin\Debug\BusinessLayer.pdb
+D:\Narendra\Narendra\JNV Projects\JNVSchool_1stNov\JNVSchool_1stNov\BusinessLayer\BusinessLayer\bin\Debug\DAC.dll
+D:\Narendra\Narendra\JNV Projects\JNVSchool_1stNov\JNVSchool_1stNov\BusinessLayer\BusinessLayer\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+D:\Narendra\Narendra\JNV Projects\JNVSchool_1stNov\JNVSchool_1stNov\BusinessLayer\BusinessLayer\bin\Debug\DAC.pdb
+D:\Narendra\Narendra\JNV Projects\JNVSchool_1stNov\JNVSchool_1stNov\BusinessLayer\BusinessLayer\obj\Debug\ResolveAssemblyReference.cache
+D:\Narendra\Narendra\JNV Projects\JNVSchool_1stNov\JNVSchool_1stNov\BusinessLayer\BusinessLayer\obj\Debug\BusinessLayer.dll
+D:\Narendra\Narendra\JNV Projects\JNVSchool_1stNov\JNVSchool_1stNov\BusinessLayer\BusinessLayer\obj\Debug\BusinessLayer.pdb
+D:\JNVSchool_1stNov\BusinessLayer\BusinessLayer\bin\Debug\BusinessLayer.dll
+D:\JNVSchool_1stNov\BusinessLayer\BusinessLayer\bin\Debug\BusinessLayer.pdb
+D:\JNVSchool_1stNov\BusinessLayer\BusinessLayer\bin\Debug\DAC.dll
+D:\JNVSchool_1stNov\BusinessLayer\BusinessLayer\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+D:\JNVSchool_1stNov\BusinessLayer\BusinessLayer\bin\Debug\DAC.pdb
+D:\JNVSchool_1stNov\BusinessLayer\BusinessLayer\obj\Debug\ResolveAssemblyReference.cache
+D:\JNVSchool_1stNov\BusinessLayer\BusinessLayer\obj\Debug\BusinessLayer.dll
+D:\JNVSchool_1stNov\BusinessLayer\BusinessLayer\obj\Debug\BusinessLayer.pdb
+F:\JNVSchool_1stNov\BusinessLayer\BusinessLayer\bin\Debug\BusinessLayer.dll
+F:\JNVSchool_1stNov\BusinessLayer\BusinessLayer\bin\Debug\BusinessLayer.pdb
+F:\JNVSchool_1stNov\BusinessLayer\BusinessLayer\bin\Debug\DAC.dll
+F:\JNVSchool_1stNov\BusinessLayer\BusinessLayer\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+F:\JNVSchool_1stNov\BusinessLayer\BusinessLayer\bin\Debug\DAC.pdb
+F:\JNVSchool_1stNov\BusinessLayer\BusinessLayer\obj\Debug\ResolveAssemblyReference.cache
+F:\JNVSchool_1stNov\BusinessLayer\BusinessLayer\obj\Debug\BusinessLayer.dll
+F:\JNVSchool_1stNov\BusinessLayer\BusinessLayer\obj\Debug\BusinessLayer.pdb
+E:\Narendra\JNV Projects\JNVSchool_1stNov\BusinessLayer\BusinessLayer\bin\Debug\BusinessLayer.dll
+E:\Narendra\JNV Projects\JNVSchool_1stNov\BusinessLayer\BusinessLayer\bin\Debug\BusinessLayer.pdb
+E:\Narendra\JNV Projects\JNVSchool_1stNov\BusinessLayer\BusinessLayer\bin\Debug\DAC.dll
+E:\Narendra\JNV Projects\JNVSchool_1stNov\BusinessLayer\BusinessLayer\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+E:\Narendra\JNV Projects\JNVSchool_1stNov\BusinessLayer\BusinessLayer\bin\Debug\DAC.pdb
+E:\Narendra\JNV Projects\JNVSchool_1stNov\BusinessLayer\BusinessLayer\obj\Debug\ResolveAssemblyReference.cache
+E:\Narendra\JNV Projects\JNVSchool_1stNov\BusinessLayer\BusinessLayer\obj\Debug\BusinessLayer.dll
+E:\Narendra\JNV Projects\JNVSchool_1stNov\BusinessLayer\BusinessLayer\obj\Debug\BusinessLayer.pdb
+D:\College\BusinessLayer\BusinessLayer\bin\Debug\BusinessLayer.dll
+D:\College\BusinessLayer\BusinessLayer\bin\Debug\BusinessLayer.pdb
+D:\College\BusinessLayer\BusinessLayer\bin\Debug\DAC.dll
+D:\College\BusinessLayer\BusinessLayer\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+D:\College\BusinessLayer\BusinessLayer\bin\Debug\DAC.pdb
+D:\College\BusinessLayer\BusinessLayer\obj\Debug\ResolveAssemblyReference.cache
+D:\College\BusinessLayer\BusinessLayer\obj\Debug\BusinessLayer.dll
+D:\College\BusinessLayer\BusinessLayer\obj\Debug\BusinessLayer.pdb

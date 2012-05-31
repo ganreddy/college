@@ -1,0 +1,562 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<link href="scripts/StyleSheet.css" rel="stylesheet" type="text/css" />
+<html>
+<head id="Head1" runat="server">
+    <title>School Package</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <style type="text/css">
+        body
+        {
+            margin-left: 0px;
+            margin-top: 0px;
+            margin-right: 0px;
+            margin-bottom: 0px;
+            width: 100%;
+            height: 100%;
+        }
+        .style1
+        {
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            font-size: 11px;
+        }
+        hr.thin
+        {
+            height: 1px;
+            border: 0;
+            color: #0000FF;
+            background-color: #333;
+            width: 100%;
+        }
+        .style6
+        {
+            font-family: "Trebuchet MS";
+            font-size: 12px;
+        }
+        .style7
+        {
+            color: #FF0000;
+            font-family: "Comic Sans MS";
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+            <td height="2%" align="center">
+                <table width="98%" border="0" align="center" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td align="left" width="20%">
+                            <%--<img src="../images/JNV-logo1.gif" width="94" height="70">--%>
+                        </td>
+                        <td align="left" width="50%">
+                            <table width="50%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td class="subhead" align="left" nowrap>
+                                      COLLEGE OF ENGINEERING AND TECHNOLOGY'S 
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="style6" nowrap>
+                                        HCU Campus
+                                        <br />
+                                        Gachibowli, Hyderabad, Andhra Pradesh 500046
+                                        <br />
+                                        Ph-No:040 23010338
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td width="30%" align="right" valign="middle" nowrap>
+                            <font size="2" face="Verdana, Arial, Helvetica, sans-serif" color="blue">
+                                <asp:LinkButton ID="lbtnSignout" runat="server" Text="Sign Out" OnClick="lbtnSignout_Click"></asp:LinkButton></font>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td bgcolor="#6487D9" colspan="3">
+                            <asp:Menu ID="Menu1" runat="server" Font-Names="Trebuchet MS" Font-Size="Medium"
+                                Orientation="Horizontal" Height="16px" ForeColor="Black" StaticMenuItemStyle-ForeColor="White"
+                                Width="190px" StaticMenuItemStyle-HorizontalPadding="2" StaticMenuItemStyle-ItemSpacing="2">
+                                <StaticMenuItemStyle HorizontalPadding="3px" VerticalPadding="3px" Font-Size="X-Small" />
+                                <StaticHoverStyle BackColor="" Font-Bold="False" ForeColor="White" Font-Size="X-Small" />
+                                <DynamicMenuStyle BackColor="#6487D9" ForeColor="#FFFFFF" />
+                                <DynamicMenuItemStyle HorizontalPadding="3px" VerticalPadding="2px" Font-Size="X-Small"
+                                    ForeColor="#FFFFFF" />
+                                <DynamicHoverStyle BackColor="" Font-Bold="False" ForeColor="red" BorderStyle="None" />
+                                <Items>
+                                    <asp:MenuItem></asp:MenuItem>
+                                    <asp:MenuItem></asp:MenuItem>
+                                    <asp:MenuItem></asp:MenuItem>
+                                    <asp:MenuItem></asp:MenuItem>
+                                    <asp:MenuItem Text="Student" Value="Student" NavigateUrl="#" Selectable="false">
+                                        <asp:MenuItem Text="Admission" Value="Admission" NavigateUrl="~/student/StudentAdmin.aspx">
+                                        </asp:MenuItem>
+                                        <asp:MenuItem Text="Edit Student" Value="EditStudent" NavigateUrl="~/student/EditStudent.aspx">
+                                        </asp:MenuItem>
+                                        <%--<asp:MenuItem Text="Physical State" Value="Physical" NavigateUrl="~/student/StudentPhysicalState.aspx">
+                                        </asp:MenuItem>
+                                        <asp:MenuItem Text="Leaves" Value="Leave" NavigateUrl="~/student/StudentLeave.aspx">
+                                        </asp:MenuItem>--%>
+                                        <asp:MenuItem Text="Attendance" Value="Attendance" NavigateUrl="~/student/StudentAttendance.aspx">
+                                        </asp:MenuItem>
+                                        <%--<asp:MenuItem Text="Marks" Value="Marks" NavigateUrl="#"></asp:MenuItem>--%>
+                                        <asp:MenuItem Text="Fee Collection" Value="Fees" NavigateUrl="~/student/PayStudentFee.aspx">
+                                        </asp:MenuItem>
+                                       <%-- <asp:MenuItem Text="Alumni Information" Value="Alumni Information" NavigateUrl="~/student/Alumni Information.aspx">
+                                        </asp:MenuItem>
+                                        <asp:MenuItem Text="Activity" Value="Studentactiviti" NavigateUrl="~/student/Studentactiviti.aspx">
+                                        </asp:MenuItem>--%>
+                                        <asp:MenuItem Text="Student Promotion" Value="StudentPromotion" NavigateUrl="~/student/StudentPromotion.aspx">
+                                        </asp:MenuItem>
+                                        <asp:MenuItem Text="Student Transfer Certificate" Value="StudentTC" NavigateUrl="~/student/StudentTC.aspx">
+                                        </asp:MenuItem>
+                                        <%-- <asp:MenuItem Text="Student Selection Process" Value="Student Selection Process" NavigateUrl="~/student/SelectionApplicationForm.aspx">
+                                        </asp:MenuItem>--%>
+                                        <%--<asp:MenuItem Text="Edit Student Selection Process" Value="Edit Student Selection Process" NavigateUrl="~/student/EditStdSelectionApplication.aspx">
+                                        </asp:MenuItem>--%>
+                                         
+                                        <asp:MenuItem></asp:MenuItem>
+                                        <asp:MenuItem></asp:MenuItem>
+                                        <asp:MenuItem></asp:MenuItem>
+                                        <asp:MenuItem></asp:MenuItem>
+                                        <asp:MenuItem Text="Reports" Value="Reports" NavigateUrl="#" Selectable="false">
+                                            <asp:MenuItem Text="Branch Wise Report" Value="Class Report" NavigateUrl="~/student/ReportStudentClasswise.aspx">
+                                            </asp:MenuItem>
+                                            <%--<asp:MenuItem Text="Leaves Report" Value="Leave Report" NavigateUrl="~/student/ReportStudentLeaves.aspx">
+                                            </asp:MenuItem>--%>
+                                            <%-- <asp:MenuItem Text="Attendence Report" Value="Attendence Report" NavigateUrl="~/student/ReportStudentAttendance.aspx">
+                                            </asp:MenuItem>--%>
+                                            <asp:MenuItem Text="Fee Collection Report" Value="Fee Report" NavigateUrl="~/student/ReportStudentFee.aspx">
+                                            </asp:MenuItem>
+                                            <asp:MenuItem Text="Quarterly Fee Collection Report" Value="Fee Report" NavigateUrl="~/student/ReportStudnetQuterlyFee.aspx">
+                                            </asp:MenuItem>
+                                            <%--<asp:MenuItem Text="Monthly Fee Collection Report" Value="Fee Report" NavigateUrl="~/student/ReportSudentMonthlyFee.aspx">
+                                            </asp:MenuItem>--%>
+                                           <%-- <asp:MenuItem Text="Defaulter's List" Value="Defaulter" NavigateUrl="~/student/ReportStudentDefaulterandPaidlist.aspx">
+                                            </asp:MenuItem>--%>
+                                            <%--<asp:MenuItem Text="Activity Report Between Two Dates" Value="GroupStdActive" NavigateUrl="~/student/ReportGroupStdActive.aspx">
+                                            </asp:MenuItem>
+                                            <asp:MenuItem Text="Activities Report" Value="StudnetActivities" NavigateUrl="~/student/ReportStudnetActivities.aspx">
+                                            </asp:MenuItem>
+                                            <asp:MenuItem Text="Student Selection Process Report " Value="Report Student Selection Process" NavigateUrl="~/student/StudentSeltionReport.aspx">
+                                        </asp:MenuItem>--%>
+                                        <asp:MenuItem Text="Student TC Report " Value="Report Student DetailsBy Name" NavigateUrl="~/student/StdDetailByName.aspx">
+                                        </asp:MenuItem>
+                                            <%--<asp:MenuItem Text="Alumni Information Report" Value="Alumni Information Report"
+                                                NavigateUrl="~/student/ReportAlumniInformation.aspx"></asp:MenuItem>--%>
+                                            <%--<asp:MenuItem Text="Tabular/Graphical Physical Status Report" Value="PhysicalStatus Report"
+                                                NavigateUrl="~/student/GraphicalReportStudentPhysicalStatus.aspx"></asp:MenuItem>--%>
+                                            <asp:MenuItem Text="Tabular/Graphical Monthly Attendance Report" Value="StudentAttendence Report"
+                                                NavigateUrl="~/student/GraphicalReportMonthlyStudentAttendence.aspx"></asp:MenuItem>
+                                            <%--<asp:MenuItem Text="Tabular/Graphical Yearly Attendance Report" Value="StudentAttendence Report"
+                                                NavigateUrl="~/student/GraphicalReportYearlyStudentAttendence.aspx"></asp:MenuItem>--%>
+                                            <%--<asp:MenuItem Text="Tabular/Graphical Yearly ClassWise Attendance Report" Value="StudentAttendence Report"
+                                                NavigateUrl="~/student/GraphicalStudentYearlyclasswiseAttendenceReport.aspx">--%>
+                                            <%--</asp:MenuItem>--%>
+                                        </asp:MenuItem>
+                                    </asp:MenuItem>
+                                    <asp:MenuItem></asp:MenuItem>
+                                    <asp:MenuItem></asp:MenuItem>
+                                    <asp:MenuItem></asp:MenuItem>
+                                    <asp:MenuItem></asp:MenuItem>
+                                    <asp:MenuItem></asp:MenuItem>
+                                    <asp:MenuItem></asp:MenuItem>
+                                    <asp:MenuItem></asp:MenuItem>
+                                    <asp:MenuItem></asp:MenuItem>
+                                    <asp:MenuItem></asp:MenuItem>
+                                    <asp:MenuItem></asp:MenuItem>
+                                    <asp:MenuItem Text="Staff" Value="Employee" NavigateUrl="#" Selectable="false">
+                                        <asp:MenuItem Text="Staff Details" Value="New Staff" NavigateUrl="~/Staff/Staffmaster.aspx">
+                                        </asp:MenuItem>
+                                        <asp:MenuItem Text="Previous Posting" Value="Previous Posting" NavigateUrl="~/Staff/StaffPrevPosts.aspx">
+                                        </asp:MenuItem>
+                                        <asp:MenuItem Text="Training Courses" Value="Training Courses" NavigateUrl="~/Staff/StaffTrainingCourses.aspx">
+                                        </asp:MenuItem>
+                                        <asp:MenuItem Text="Leaves" Value="Leaves" NavigateUrl="~/Staff/StaffApplyForLeave.aspx">
+                                        </asp:MenuItem>
+                                        <asp:MenuItem Text="Attendence" Value="Attendence" NavigateUrl="~/Staff/StaffAttendance.aspx">
+                                        </asp:MenuItem>
+                                        <asp:MenuItem Text="Loans" Value="Loans" NavigateUrl="~/Staff/StaffApplyForLoan.aspx">
+                                        </asp:MenuItem>
+                                        <%--<asp:MenuItem Text="PaySlip" Value="PaySlip" NavigateUrl="#"></asp:MenuItem>--%>
+                                        <asp:MenuItem></asp:MenuItem>
+                                        <asp:MenuItem></asp:MenuItem>
+                                        <asp:MenuItem></asp:MenuItem>
+                                        <asp:MenuItem></asp:MenuItem>
+                                        <asp:MenuItem Text="Reports" Value="Reports" NavigateUrl="#" Selectable="false">
+                                            <asp:MenuItem Text="Staff Details Report" Value="Staff Details Report" NavigateUrl="~/Staff/ReportStaffDetails.aspx">
+                                            </asp:MenuItem>
+                                            <asp:MenuItem Text="Trainning Courses Report" Value="Trainning Courses Report" NavigateUrl="~/Staff/ReportStaffTrainingCourses.aspx">
+                                            </asp:MenuItem>
+                                            <asp:MenuItem Text="Attendance Report" Value="Attendence Report" NavigateUrl="~/Staff/ReportStaffAttendance.aspx">
+                                            </asp:MenuItem>
+                                            <asp:MenuItem Text="Leaves Report" Value="Leaves Report" NavigateUrl="~/Staff/ReportStaffLeave.aspx">
+                                            </asp:MenuItem>
+                                            <asp:MenuItem Text="Loan Report" Value="StaffLoan Report" NavigateUrl="~/Staff/ReportStaffLoan.aspx">
+                                            </asp:MenuItem>
+                                            <asp:MenuItem Text="Previous postings Report" Value="Previous Postings Report" NavigateUrl="~/Staff/ReportStaffPreviousPostings.aspx">
+                                            </asp:MenuItem>
+                                            <asp:MenuItem Text="Timetable Report" Value="Timetable Report" NavigateUrl="~/Staff/ReportTimetable1.aspx">
+                                            </asp:MenuItem>
+                                            <asp:MenuItem Text="Staff Payslip Report" Value="Staff Payslip Report" NavigateUrl="~/Staff/ReportStaffSalaryPaySlip.aspx">
+                                            </asp:MenuItem>
+                                            <asp:MenuItem Text="Tabular/Graphical Monthly Attendance" Value="GraphicalMonthlyStaffAttendence"
+                                                NavigateUrl="~/Staff/GraphicalReportMonthlyStaffAttendance.aspx"></asp:MenuItem>
+                                            <asp:MenuItem Text="Tabular/Graphical Yearly Attendance" Value="GraphicalYearlyStaffAttendence"
+                                                NavigateUrl="~/Staff/GraphicalReportYearlyStaffAttendence.aspx"></asp:MenuItem>
+                                        </asp:MenuItem>
+                                    </asp:MenuItem>
+                                    <asp:MenuItem></asp:MenuItem>
+                                    <asp:MenuItem></asp:MenuItem>
+                                    <asp:MenuItem></asp:MenuItem>
+                                    <asp:MenuItem></asp:MenuItem>
+                                    <asp:MenuItem></asp:MenuItem>
+                                    <asp:MenuItem></asp:MenuItem>
+                                    <asp:MenuItem></asp:MenuItem>
+                                    <asp:MenuItem></asp:MenuItem>
+                                    <asp:MenuItem></asp:MenuItem>
+                                    <asp:MenuItem></asp:MenuItem>
+                                    <asp:MenuItem Text="Library" Value="Library" NavigateUrl="#" Selectable="false">
+                                        <asp:MenuItem Text="New Book Accession" Value="New Books" NavigateUrl="~/Library/LibBookAccession.aspx">
+                                        </asp:MenuItem>
+                                        <asp:MenuItem Text="Student Book Issues" Value="Student Book Issues " NavigateUrl="~/Library/LibStudentBookIssue.aspx">
+                                        </asp:MenuItem>
+                                        <asp:MenuItem Text="Student Book Return" Value="Student Book Return " NavigateUrl="~/Library/LibStudentBookReturn.aspx">
+                                        </asp:MenuItem>
+                                        <asp:MenuItem Text="Staff Book Issues" Value="Staff Book Issues" NavigateUrl="~/Library/LibStaffBookIssue.aspx">
+                                        </asp:MenuItem>
+                                        <asp:MenuItem Text="Staff Book Return" Value="Staff Book Return " NavigateUrl="~/Library/LibStaffBookReturn.aspx">
+                                        </asp:MenuItem>
+                                        <asp:MenuItem></asp:MenuItem>
+                                        <asp:MenuItem></asp:MenuItem>
+                                        <asp:MenuItem></asp:MenuItem>
+                                        <asp:MenuItem></asp:MenuItem>
+                                        <asp:MenuItem Text="Reports" Value="Reports" NavigateUrl="#" Selectable="false">
+                                            <asp:MenuItem Text="Books Report" Value="Books Reports" NavigateUrl="~/Library/ReportLibiraryBooks.aspx">
+                                            </asp:MenuItem>
+                                            <asp:MenuItem Text="Student Book Issue Report" Value="Stud Issue Reports" NavigateUrl="~/Library/ReportStudBookIssue.aspx">
+                                            </asp:MenuItem>
+                                            <asp:MenuItem Text="Student Book Return Report" Value="Staff Issue Reports" NavigateUrl="~/Library/ReportStudBookReturn.aspx">
+                                            </asp:MenuItem>
+                                            <asp:MenuItem Text="Staff Book Issue Report" Value="Staff Issue Reports" NavigateUrl="~/Library/ReportStaffBookIssue.aspx">
+                                            </asp:MenuItem>
+                                            <asp:MenuItem Text="Staff Book Return Report" Value="Staff Issue Reports" NavigateUrl="~/Library/ReportStaffBookReturn.aspx">
+                                            </asp:MenuItem>
+                                        </asp:MenuItem>
+                                    </asp:MenuItem>
+                                    <asp:MenuItem></asp:MenuItem>
+                                    <asp:MenuItem></asp:MenuItem>
+                                    <asp:MenuItem></asp:MenuItem>
+                                    <asp:MenuItem></asp:MenuItem>
+                                    <asp:MenuItem></asp:MenuItem>
+                                    <asp:MenuItem></asp:MenuItem>
+                                    <asp:MenuItem></asp:MenuItem>
+                                    <asp:MenuItem></asp:MenuItem>
+                                    <asp:MenuItem></asp:MenuItem>
+                                    <asp:MenuItem></asp:MenuItem>
+                                    <asp:MenuItem></asp:MenuItem>
+                                    <asp:MenuItem></asp:MenuItem>
+                                    <asp:MenuItem Text="Stores" Value="Stores" NavigateUrl="#" Selectable="false">
+                                        <asp:MenuItem Text="New Procurement" Value="New Product" NavigateUrl="~/Stores/StrNewProducts.aspx">
+                                        </asp:MenuItem>
+                                        <asp:MenuItem Text="Student Product Issue" Value="Product issues" NavigateUrl="~/Stores/StrStudentProductIss.aspx">
+                                        </asp:MenuItem>
+                                        <asp:MenuItem Text="Staff Product Issue" Value="Product issues" NavigateUrl="~/Stores/strStaffProductIssue.aspx">
+                                        </asp:MenuItem>
+                                        <asp:MenuItem Text="Stores Purchase" Value="Stores Purchase" NavigateUrl="~/Stores/StorePurchases.aspx">
+                                        </asp:MenuItem>
+                                        <%--<asp:MenuItem Text="Non-Recipents Issues" Value="Non-Recipents Issues" NavigateUrl="#">
+                                        </asp:MenuItem>--%>
+                                        <asp:MenuItem Text="Procurement Report" Value="Reports" NavigateUrl="~/Stores/ReportNewProcurement.aspx">
+                                        </asp:MenuItem>
+                                        <asp:MenuItem Text="Store Purchase Report" Value="Reports" NavigateUrl="~/Stores/ReportStorePurchase.aspx">
+                                        </asp:MenuItem>
+                                        <asp:MenuItem Text="Student Product Issue Report" Value="Reports" NavigateUrl="~/Stores/ReportStudentProductIssue.aspx">
+                                        </asp:MenuItem>
+                                        <asp:MenuItem Text="Staff Product Issue Report" Value="Reports" NavigateUrl="~/Stores/ReportStaffProductIssue.aspx">
+                                        </asp:MenuItem>
+                                    </asp:MenuItem>
+                                    <asp:MenuItem></asp:MenuItem>
+                                    <asp:MenuItem></asp:MenuItem>
+                                    <asp:MenuItem></asp:MenuItem>
+                                    <asp:MenuItem></asp:MenuItem>
+                                    <asp:MenuItem></asp:MenuItem>
+                                    <asp:MenuItem></asp:MenuItem>
+                                    <asp:MenuItem></asp:MenuItem>
+                                    <asp:MenuItem></asp:MenuItem>
+                                    <asp:MenuItem Text="Mess" Value="Mess" NavigateUrl="#" Selectable="false">
+                                        <asp:MenuItem Text="Dish Consumption" Value="Dish Consumption" NavigateUrl="~/Mess/MessDishConsumption.aspx">
+                                        </asp:MenuItem>
+                                        <asp:MenuItem Text="Item Consumption" Value="Item Consumption" NavigateUrl="~/Mess/ItemConsumption.aspx">
+                                        </asp:MenuItem>
+                                        <asp:MenuItem Text="Mess Purchases" Value="Mess Purchases" NavigateUrl="~/Mess/MessPurchases.aspx">
+                                        </asp:MenuItem>
+                                        <asp:MenuItem Text="Item Calculation" Value="Item Calculation" NavigateUrl="~/Mess/ItemCalculation.aspx">
+                                        </asp:MenuItem>
+                                        <asp:MenuItem Text="Mess Item Consumption Report" Value="Mess Consumption Report"
+                                            NavigateUrl="~/Mess/ReportMessItemConsumption.aspx"></asp:MenuItem>
+                                        <asp:MenuItem Text="Mess Dish Consumption Report" Value="Mess Dish Report" NavigateUrl="~/Mess/ReportMessdDishConsumption.aspx">
+                                        </asp:MenuItem>
+                                        <asp:MenuItem Text="Mess Purchases Report" Value="Mess Purchases Report" NavigateUrl="~/Mess/ReportMessPurchase.aspx">
+                                        </asp:MenuItem>
+                                        <asp:MenuItem Text="Tabular/Graphical Monthly Dish Calculation" Value="Monthly ItemCalculation Report"
+                                            NavigateUrl="~/Mess/GraphicalMonthlyMessItemCalculationReport.aspx"></asp:MenuItem>
+                                        <asp:MenuItem Text="Tabular/Graphical Yearly Dish Calculation" Value="Yearly ItemCalculation Report"
+                                            NavigateUrl="~/Mess/GraphicalYearlyMessItemCalculationReport.aspx"></asp:MenuItem>
+                                        <asp:MenuItem Text="Tabular/Graphical Monthly Item Consumption" Value="Monthly ItemConsumption Report"
+                                            NavigateUrl="~/Mess/GraphicalMonthlyReportMessItemConsumptionReport.aspx"></asp:MenuItem>
+                                        <asp:MenuItem Text="Tabular/Graphical Yearly Item Consumption" Value="Yearly ItemConsumption Report"
+                                            NavigateUrl="~/Mess/GraphicalYearlyReportMessItemConsumptionReport.aspx"></asp:MenuItem>
+                                    </asp:MenuItem>
+                                    <asp:MenuItem></asp:MenuItem>
+                                    <asp:MenuItem></asp:MenuItem>
+                                    <asp:MenuItem></asp:MenuItem>
+                                    <asp:MenuItem></asp:MenuItem>
+                                    <asp:MenuItem></asp:MenuItem>
+                                    <asp:MenuItem></asp:MenuItem>
+                                    <asp:MenuItem></asp:MenuItem>
+                                    <asp:MenuItem></asp:MenuItem>
+                                    <%--<asp:MenuItem Text="CCE" Value="CCE" NavigateUrl="#" Selectable="false">
+                                        <asp:MenuItem Text="Define Scholastic" Value="Define Scholastic" NavigateUrl="~/CCE/DefineScholasticArea.aspx">
+                                        </asp:MenuItem>
+                                        <asp:MenuItem Text="Define Exam" Value="Define Exam" NavigateUrl="~/CCE/DefineExam.aspx">
+                                        </asp:MenuItem>
+                                        <asp:MenuItem Text="Define Co-Scholastic Indicators" Value="Mess Consumption Report" NavigateUrl="~/CCE/DefineIndicators.aspx">
+                                        </asp:MenuItem>
+                                        <asp:MenuItem Text="Define Co-Scholastic" Value="Define CoScholastic" NavigateUrl="~/CCE/DefineCoScholastic.aspx">
+                                        </asp:MenuItem>
+                                        <asp:MenuItem Text="Define Co-Scholastic Grades" Value="Define CoScholastic Grades" NavigateUrl="~/CCE/DefineCoScholasticGrade.aspx">
+                                        </asp:MenuItem>
+                                        <asp:MenuItem Text="Add Student CCE Marks" Value="Add CCE Marks" NavigateUrl="~/CCE/AddCCEMarks.aspx">
+                                        </asp:MenuItem>
+                                        <asp:MenuItem Text="Display CCE Marks" Value="Display CCE Marks" NavigateUrl="~/CCE/DisplayCCEMarks.aspx">
+                                        </asp:MenuItem>
+                                        <asp:MenuItem Text="Add Co-Scholastic Marks" Value="CoScholastic Marks" NavigateUrl="~/CCE/AddCoScholasticMarks.aspx">
+                                        </asp:MenuItem>
+                                        <asp:MenuItem Text="Display Co-Scholastic Marks" Value="Display CoScholastic Marks" NavigateUrl="~/CCE/DisplayCoScholasticMarks.aspx">
+                                        </asp:MenuItem>
+                                       <%-- <asp:MenuItem Text="Display CoScholastic Marks" Value="Display CoScholastic Marks"
+                                            NavigateUrl="~/CCE/DisplayCoScholasticMarks.aspx"></asp:MenuItem>--%>
+                                       <%-- <asp:MenuItem Text="Reports" Value="Reports" NavigateUrl="#" Selectable="false">
+                                        <asp:MenuItem Text="General CCE Report" Value="General CCE Report" NavigateUrl="~/CCE/ReportCCENormal.aspx">
+                                            </asp:MenuItem>
+                                            <asp:MenuItem Text="SubjectWise Marks Report" Value="Scholastic Marks Report" NavigateUrl="~/CCE/ReportScholasticMarks.aspx">
+                                            </asp:MenuItem>
+                                            <asp:MenuItem Text="Co-Scholastic Report" Value="Co-Scholastic Report" NavigateUrl="~/CCE/ReportCoScholasticMarks.aspx">
+                                            </asp:MenuItem>--%>
+                                           <%-- <asp:MenuItem Text="CoScholastic Marks Report" Value="CoScholastic Marks Report"
+                                                NavigateUrl="~/CCE/ReportCoScholasticMarks.aspx"></asp:MenuItem>--%>
+                                            <%--<asp:MenuItem Text="Students Appeared/Passed Report" Value="CasteGenderUrbanRuralBySubjectWise"
+                                                NavigateUrl="~/CCE/ReportCCECasteGenderUrbanRuralBySubjectWise.aspx"></asp:MenuItem>
+                                            
+                                            <asp:MenuItem Text="ExamWise Percentage Report" Value="ExamWise Percentage"
+                                                NavigateUrl="~/CCE/ReportCCEExamWiseMarksPercentage.aspx"></asp:MenuItem>
+                                            <asp:MenuItem Text="ExamWise Percentage Count Report" Value="ExamWise Percentage Count"
+                                                NavigateUrl="~/CCE/ReportCCEExamWiseMarksPercentageCount.aspx"></asp:MenuItem>
+                                            <asp:MenuItem Text="SubjectWise Percentage Report" Value="SubjectWise Percentage"
+                                                NavigateUrl="~/CCE/ReportCCESubjectWiseMarksPercentage.aspx"></asp:MenuItem>
+                                            <asp:MenuItem Text="SubjectWise Percentage Count Report" Value="SubjectWise Percentage Count"
+                                                NavigateUrl="~/CCE/ReportCCESubjectWiseMarksPercentageCount.aspx"></asp:MenuItem>
+                                            <asp:MenuItem Text="ScholasticWise Percentage Report" Value="ScholasticWise Percentage "
+                                                NavigateUrl="~/CCE/ReportScholasticWiseStudentsPercentage.aspx"></asp:MenuItem>
+                                            <asp:MenuItem Text="ScholasticWise Percentage Count Report" Value="ScholasticWise Percentage Count"
+                                                NavigateUrl="~/CCE/ReportScholasticWiseStudentsPercentageCount.aspx"></asp:MenuItem>--%>
+                                            <%--<asp:MenuItem Text="CCE Caste/Gender/UrbanRural Report" Value="CCE Caste/Gender/UrbanRural Report" NavigateUrl="~/CCE/ReportCCECasteGenderUrbanRural.aspx">
+                                        </asp:MenuItem>
+                                        <asp:MenuItem Text="CCE Caste/Gender/UrbanRuralBy SubjectWise Report" Value="CCE Caste/Gender/UrbanRuralBy SubjectWise Report" NavigateUrl="~/CCE/ReportCCECasteGenderUrbanRuralBySubjectWise.aspx">
+                                        </asp:MenuItem>
+                                        <asp:MenuItem Text="CCE ExamWise Marks Percentage Report" Value="CCE ExamWise Marks Percentage Report" NavigateUrl="~/CCE/ReportCCEExamWiseMarksPercentage.aspx">
+                                        </asp:MenuItem>
+                                        <asp:MenuItem Text="CCE ExamWise Marks Percentage Count Report" Value="CCE ExamWise Marks Percentage Count Report" NavigateUrl="~/CCE/ReportCCEExamWiseMarksPercentageCount.aspx">
+                                        </asp:MenuItem>
+                                        <asp:MenuItem Text="CCE SubjectWise Marks Percentage Report" Value="CCE SubjectWise Marks Percentage Report" NavigateUrl="~/CCE/ReportCCESubjectWiseMarksPercentage.aspx">
+                                        </asp:MenuItem>
+                                        <asp:MenuItem Text="CCE SubjectWise Marks Percentage Count Report" Value="CCE SubjectWise Marks Percentage Count Report" NavigateUrl="~/CCE/ReportCCESubjectWiseMarksPercentageCount.aspx">
+                                        </asp:MenuItem>
+                                        <asp:MenuItem Text="Graphical CCE ExamWise Marks Percentage Report" Value="Graphical CCE ExamWise Marks Percentage Report" NavigateUrl="~/CCE/GraphicalReportCCEExamWiseMarksPercentage.aspx">
+                                        </asp:MenuItem>
+                                          <asp:MenuItem Text="Graphical SubjectWise Marks Percentage Report" Value="Graphical SubjectWise Marks Percentage Report" NavigateUrl="~/CCE/GraphicalReportSubjectWiseMarksPercentage.aspx">
+                                        </asp:MenuItem>  --%>
+                                    <%--    </asp:MenuItem>
+                                    </asp:MenuItem>--%>
+                                    <asp:MenuItem></asp:MenuItem>
+                                    <asp:MenuItem></asp:MenuItem>
+                                    <asp:MenuItem></asp:MenuItem>
+                                    <asp:MenuItem></asp:MenuItem>
+                                    <asp:MenuItem></asp:MenuItem>
+                                    <asp:MenuItem></asp:MenuItem>
+                                    <asp:MenuItem></asp:MenuItem>
+                                    <asp:MenuItem Text="Accounts" Value="Accounts" NavigateUrl="#" Selectable="false">
+                                        <%--<asp:MenuItem Text="Salary" Value="Dish Consumption" NavigateUrl="~/Staff/SetMonthlySal.aspx">
+                                        </asp:MenuItem>--%>
+                                        <asp:MenuItem Text="Salary Slip" Value="Salary Slip" NavigateUrl="~/Staff/StaffSalaryPaySlip.aspx">
+                                        </asp:MenuItem>
+                                        <asp:MenuItem Text="Cash Book" Value="Cash Book" NavigateUrl="~/Accounts/CashBook.aspx">
+                                        </asp:MenuItem>
+                                        <asp:MenuItem Text="Edit Cash Book" Value="Edit Cash Book" NavigateUrl="~/Accounts/EditCashBook.aspx">
+                                        </asp:MenuItem>
+                                        <asp:MenuItem Text="Budget Allocation" Value="Budget Allocation" NavigateUrl="~/Accounts/AccBudgetAlloc.aspx">
+                                        </asp:MenuItem>
+                                        <asp:MenuItem Text="Consolidated Monthly Statement" Value="Consolidated Monthly Statement" NavigateUrl="~/Accounts/CMS.aspx">
+                                        </asp:MenuItem>
+                                        <asp:MenuItem Text="CashBook Report" Value="CashBook Report" NavigateUrl="~/Accounts/ReportCashBook.aspx">
+                                        </asp:MenuItem>
+                                    </asp:MenuItem>
+                                    <asp:MenuItem></asp:MenuItem>
+                                    <asp:MenuItem></asp:MenuItem>
+                                    <asp:MenuItem></asp:MenuItem>
+                                    <asp:MenuItem></asp:MenuItem>
+                                    <asp:MenuItem></asp:MenuItem>
+                                    <asp:MenuItem></asp:MenuItem>
+                                    <asp:MenuItem></asp:MenuItem>
+                                    <asp:MenuItem Text="Administration" Value="Administration" NavigateUrl="#" Selectable="false">
+                                        <asp:MenuItem Text="Student" Value="Reports" NavigateUrl="#" Selectable="false">
+                                            <asp:MenuItem Text="Define Batch" Value="Batch" NavigateUrl="~/Admin/DefineBatches.aspx">
+                                            </asp:MenuItem>
+                                            <asp:MenuItem Text="Define Branch" Value="Branch" NavigateUrl="~/Admin/DefineClass.aspx">
+                                            </asp:MenuItem>
+                                            <asp:MenuItem Text="Define Section" Value="Define Section" NavigateUrl="~/Admin/DefineClassSection.aspx">
+                                            </asp:MenuItem>
+                                            <asp:MenuItem Text="Define Subjects" Value="Subjects" NavigateUrl="~/Admin/DefineSubjects.aspx">
+                                            </asp:MenuItem>
+                                            <asp:MenuItem Text="Define FeeAllocation" Value="FeeAllocation" NavigateUrl="~/Admin/DefineFeeAllocation.aspx">
+                                            </asp:MenuItem>
+                                            <asp:MenuItem Text="Define FeeHeaders" Value="DefineFeeHeaders" NavigateUrl="~/Admin/DefineFeeHeaders.aspx">
+                                            </asp:MenuItem>
+                                            <asp:MenuItem Text="Define FeeType" Value="DefineFeeType" NavigateUrl="~/Admin/DefineFeeType.aspx">
+                                            </asp:MenuItem>
+                                            <asp:MenuItem Text="Define Extra Curricular" Value="Inventory" NavigateUrl="~/Admin/DefineExtraCircullar.aspx">
+                                            </asp:MenuItem>
+                                            <%--<asp:MenuItem Text="Define Medium" Value="Inventory" NavigateUrl="~/Admin/DefineMedium.aspx">
+                                            </asp:MenuItem>--%>
+                                        </asp:MenuItem>
+                                        <asp:MenuItem Text="Staff" Value="Reports" NavigateUrl="#" Selectable="false">
+                                           <%-- <asp:MenuItem Text="Define Staff Salary" Value="Staff Salary" NavigateUrl="~/Admin/DefineStaffSal.aspx">
+                                            </asp:MenuItem>--%>
+                                              <asp:MenuItem Text="Define Salary Heads" Value="Staff Salary" NavigateUrl="~/Staff/DefineStaffSal.aspx">
+                                            </asp:MenuItem>
+                                             <asp:MenuItem Text="Define Staff Salary" Value="Staff Salary" NavigateUrl="~/Staff/StaffSalary.aspx">
+                                            </asp:MenuItem>
+                                            <asp:MenuItem Text="Define Joining Type" Value="Inventory" NavigateUrl="~/Admin/DefineJoiningType.aspx">
+                                            </asp:MenuItem>
+                                            <asp:MenuItem Text="Define Leaves" Value="Leaves" NavigateUrl="~/Admin/DefineLeaves.aspx">
+                                            </asp:MenuItem>
+                                            <asp:MenuItem Text="Define Loans" Value="Inventory" NavigateUrl="~/Admin/DefineLoans.aspx">
+                                            </asp:MenuItem>
+                                            <asp:MenuItem Text="Define Timetable" Value="DefineTimetable" NavigateUrl="~/Admin/DefineTimetable1.aspx">
+                                            </asp:MenuItem>
+                                            <asp:MenuItem Text="Modify Timetable" Value="ModifyTimetable" NavigateUrl="~/Admin/ModifyTimetable.aspx">
+                                            </asp:MenuItem>
+                                        </asp:MenuItem>
+                                        <asp:MenuItem Text="Library" Value="Reports" NavigateUrl="#" Selectable="false">
+                                            <asp:MenuItem Text="Define Book Category" Value="Staff Salary" NavigateUrl="~/Admin/DefineBookCategory.aspx">
+                                            </asp:MenuItem>
+                                            <asp:MenuItem Text="Define Book SubCategory" Value="Staff Salary" NavigateUrl="~/Admin/LibSubCategory.aspx">
+                                            </asp:MenuItem>
+                                        </asp:MenuItem>
+                                        <asp:MenuItem Text="Common" Value="Reports" NavigateUrl="#" Selectable="false">
+                                            <asp:MenuItem Text="Define Caste" Value="Inventory" NavigateUrl="~/Admin/DefineCaste.aspx">
+                                            </asp:MenuItem>
+                                            <%--<asp:MenuItem Text="Define Medium" Value="Inventory" NavigateUrl="~/Admin/DefineMedium.aspx">
+                                            </asp:MenuItem>--%>
+                                            <asp:MenuItem Text="Define MotherTounge" Value="Inventory" NavigateUrl="~/Admin/DefineMotherTounge.aspx">
+                                            </asp:MenuItem>
+                                            <asp:MenuItem Text="Define Nationality" Value="Inventory" NavigateUrl="~/Admin/DefineNationality.aspx">
+                                            </asp:MenuItem>
+                                            <asp:MenuItem Text="Define Qualification" Value="Inventory" NavigateUrl="~/Admin/DefineQualification.aspx">
+                                            </asp:MenuItem>
+                                            <asp:MenuItem Text="Define State" Value="Inventory" NavigateUrl="~/Admin/DefineState.aspx">
+                                            </asp:MenuItem>
+                                            <asp:MenuItem Text="Define Physical State" Value="Inventory" NavigateUrl="~/Admin/DefinePhysical.aspx">
+                                            </asp:MenuItem>
+                                            <asp:MenuItem Text="DefineActivities" Value="Activities" NavigateUrl="~/Admin/DefineActivities.aspx">
+                                            </asp:MenuItem>
+                                            <asp:MenuItem Text="Define Club" Value="Club" NavigateUrl="~/Admin/DefineClub.aspx">
+                                            </asp:MenuItem>
+                                            <asp:MenuItem Text="Define House" Value="House" NavigateUrl="~/Admin/DefineHouse.aspx">
+                                            </asp:MenuItem>
+                                        </asp:MenuItem>
+                                        <asp:MenuItem Text="Mess" Value="Reports" NavigateUrl="#" Selectable="false">
+                                            <asp:MenuItem Text="Define Mess Dish" Value="Mess Dish" NavigateUrl="~/Admin/DefineMessDish.aspx">
+                                            </asp:MenuItem>
+                                            <asp:MenuItem Text="Define Mess Items" Value="Mess Items" NavigateUrl="~/Admin/DefineMessItemCategory.aspx">
+                                            </asp:MenuItem>
+                                        </asp:MenuItem>
+                                        <asp:MenuItem Text="Stores" Value="Reports" NavigateUrl="#" Selectable="false">
+                                            <asp:MenuItem Text="Define Store Items" Value="Mess Items" NavigateUrl="~/Admin/DefineMessItemCategory.aspx">
+                                            </asp:MenuItem>
+                                            <asp:MenuItem Text="Define unit Of MeasureMent" Value="Mess Items" NavigateUrl="~/Admin/unitOfMeasurement.aspx">
+                                            </asp:MenuItem>
+                                        </asp:MenuItem>
+                                        <asp:MenuItem Text="Account" Value="Reports" NavigateUrl="#" Selectable="false">
+                                            <asp:MenuItem Text="Define A/C Funds" Value="Mess Dish" NavigateUrl="~/Admin/DefineAccFunds.aspx">
+                                            </asp:MenuItem>
+                                            <asp:MenuItem Text="Define A/C Heads" Value="Mess Dish" NavigateUrl="~/Admin/DefineAccHeads.aspx">
+                                            </asp:MenuItem>
+                                            <asp:MenuItem Text="Define A/C sub Heads" Value="Mess Dish" NavigateUrl="~/Admin/DefineAccSubHeads.aspx">
+                                            </asp:MenuItem>
+                                        </asp:MenuItem>
+                                    </asp:MenuItem>
+                                </Items>
+                            </asp:Menu>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td height="92%" align="center" valign="top">
+                <table width="99%" border="0" cellpadding="2" cellspacing="2">
+                    <tr>
+                        <td height="10%" align="right">
+                            <table width="40%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td align="right" class="style7">
+                                        <%--<u>Employee Registration</u>--%>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td>
+                                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                        </asp:ContentPlaceHolder>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td height="2%">
+                <hr class="thin">
+            </td>
+        </tr>
+        <tr>
+            <td height="2%" align="center" valign="middle" class="style1">
+                <table width="50%" border="0" cellspacing="2" cellpadding="2">
+                    <tr>
+                        <td>
+                            &nbsp;
+                        </td>
+                        <td align="center" class="style1">
+                            Copyright © 2011-12 Technosoft. All Rights Reserved.
+                        </td>
+                        <td>
+                            &nbsp;
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>

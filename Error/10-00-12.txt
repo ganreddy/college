@@ -1,0 +1,788 @@
+
+LogEntry :
+01/10/2012 14:54:37
+Error Message:Cannot insert the value NULL into column 'BookID', table 'JNVSchool.dbo.LibraryBooks'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+01/10/2012 14:56:09
+Error Message:Cannot insert the value NULL into column 'BookID', table 'JNVSchool.dbo.LibraryBooks'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+01/10/2012 14:57:29
+Error Message:Cannot insert the value NULL into column 'BookID', table 'JNVSchool.dbo.LibraryBooks'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+01/10/2012 14:58:33
+Error Message:Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'To'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'To'.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+01/10/2012 14:58:33
+Error Message:Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'To'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'To'.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+01/10/2012 14:58:33
+Error Message:Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'To'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'To'.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+01/10/2012 14:58:33
+Error Message:Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'To'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'To'.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+01/10/2012 14:58:33
+Error Message:Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'To'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'To'.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+01/10/2012 14:58:33
+Error Message:Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'To'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'To'.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+01/10/2012 14:58:33
+Error Message:Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'To'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'To'.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+01/10/2012 14:58:33
+Error Message:Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'To'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'To'.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+01/10/2012 14:58:33
+Error Message:Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'To'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'To'.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+01/10/2012 14:58:33
+Error Message:Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'To'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'To'.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+01/10/2012 14:58:38
+Error Message:Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'To'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'To'.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+01/10/2012 14:58:38
+Error Message:Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'To'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'To'.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+01/10/2012 14:58:38
+Error Message:Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'To'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'To'.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+01/10/2012 14:58:38
+Error Message:Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'To'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'To'.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+01/10/2012 14:58:38
+Error Message:Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'To'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'To'.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+01/10/2012 14:58:38
+Error Message:Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'To'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'To'.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+01/10/2012 14:58:38
+Error Message:Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'To'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'To'.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+01/10/2012 14:58:38
+Error Message:Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'To'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'To'.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+01/10/2012 14:58:38
+Error Message:Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'To'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'To'.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+01/10/2012 14:58:38
+Error Message:Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'To'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'To'.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+01/10/2012 14:58:47
+Error Message:Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'To'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'To'.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+01/10/2012 14:58:47
+Error Message:Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'To'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'To'.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+01/10/2012 14:58:47
+Error Message:Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'To'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'To'.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+01/10/2012 14:58:47
+Error Message:Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'To'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'To'.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+01/10/2012 14:58:47
+Error Message:Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'To'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'To'.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+01/10/2012 14:58:48
+Error Message:Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'To'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'To'.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+01/10/2012 14:58:48
+Error Message:Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'To'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'To'.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+01/10/2012 14:58:48
+Error Message:Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'To'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'To'.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+01/10/2012 14:58:48
+Error Message:Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'To'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'To'.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+01/10/2012 14:58:48
+Error Message:Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'To'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'From'.
+Invalid column name 'To'.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+01/10/2012 15:00:49
+Error Message:Cannot insert the value NULL into column 'BookID', table 'JNVSchool.dbo.LibraryBooks'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+01/10/2012 15:02:35
+Error Message:Cannot insert the value NULL into column 'BookID', table 'JNVSchool.dbo.LibraryBooks'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+01/10/2012 16:13:15
+Error Message:Object cannot be cast from DBNull to other types.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+01/10/2012 16:24:46
+Error Message:Object cannot be cast from DBNull to other types.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+01/10/2012 16:31:28
+Error Message:Object cannot be cast from DBNull to other types.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+01/10/2012 16:34:24
+Error Message:Object cannot be cast from DBNull to other types.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+04/10/2012 11:05:25
+Error Message:Could not find stored procedure 'spCheckStudAdmissionNo'.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+04/10/2012 11:07:27
+Error Message:Could not find stored procedure 'spCheckStudAdmissionNo'.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+04/10/2012 11:08:40
+Error Message:The INSERT statement conflicted with the FOREIGN KEY constraint "FK__Stud_Admi__Mediu__34C8D9D1". The conflict occurred in database "College", table "dbo.Medium", column 'MediumID'.
+The statement has been terminated.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+04/10/2012 11:22:18
+Error Message:The INSERT statement conflicted with the FOREIGN KEY constraint "FK__Stud_Cont__StudI__38996AB5". The conflict occurred in database "College", table "dbo.Stud_Admission", column 'StudID'.
+The statement has been terminated.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+04/10/2012 11:22:18
+Error Message:The INSERT statement conflicted with the FOREIGN KEY constraint "FK__Stud_Educ__StudI__3C69FB99". The conflict occurred in database "College", table "dbo.Stud_Admission", column 'StudID'.
+The statement has been terminated.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+04/10/2012 11:22:19
+Error Message:The INSERT statement conflicted with the FOREIGN KEY constraint "FK__Stud_Iden__StudI__3F466844". The conflict occurred in database "College", table "dbo.Stud_Admission", column 'StudID'.
+The statement has been terminated.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+04/10/2012 11:22:19
+Error Message:The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Stud_Extra_Stud_Admission". The conflict occurred in database "College", table "dbo.Stud_Admission", column 'StudID'.
+The statement has been terminated.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+04/10/2012 11:31:39
+Error Message:Could not find stored procedure 'spCheckStudAdmissionNo'.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+04/10/2012 11:33:04
+Error Message:Input string was not in a correct format.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+04/10/2012 15:00:20
+Error Message:Could not find stored procedure 'spCheckStudAdmissionNo'.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+04/10/2012 17:32:02
+Error Message:Could not find stored procedure 'spCheckStudAdmissionNo'.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+04/10/2012 17:39:52
+Error Message:Could not find stored procedure 'spCheckStudAdmissionNo'.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+04/10/2012 17:40:08
+Error Message:Could not find stored procedure 'spCheckStudAdmissionNo'.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+04/10/2012 17:43:05
+Error Message:Could not find stored procedure 'spCheckStudAdmissionNo'.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+04/10/2012 17:47:09
+Error Message:Could not find stored procedure 'spCheckStudAdmissionNo'.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+04/10/2012 17:47:49
+Error Message:Could not find stored procedure 'spCheckStudAdmissionNo'.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+04/10/2012 17:51:48
+Error Message:Could not find stored procedure 'spCheckStudAdmissionNo'.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+04/10/2012 17:51:48
+Error Message:The INSERT statement conflicted with the FOREIGN KEY constraint "FK__Stud_Cont__StudI__38996AB5". The conflict occurred in database "College", table "dbo.Stud_Admission", column 'StudID'.
+The statement has been terminated.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+04/10/2012 17:51:48
+Error Message:The INSERT statement conflicted with the FOREIGN KEY constraint "FK__Stud_Educ__StudI__3C69FB99". The conflict occurred in database "College", table "dbo.Stud_Admission", column 'StudID'.
+The statement has been terminated.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+04/10/2012 17:51:48
+Error Message:The INSERT statement conflicted with the FOREIGN KEY constraint "FK__Stud_Iden__StudI__3F466844". The conflict occurred in database "College", table "dbo.Stud_Admission", column 'StudID'.
+The statement has been terminated.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+04/10/2012 17:51:48
+Error Message:The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Stud_Extra_Stud_Admission". The conflict occurred in database "College", table "dbo.Stud_Admission", column 'StudID'.
+The statement has been terminated.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+04/10/2012 18:26:43
+Error Message:Could not find stored procedure 'spCheckStudAdmissionNo'.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+04/10/2012 18:31:18
+Error Message:Input string was not in a correct format.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+04/10/2012 18:31:41
+Error Message:Could not find stored procedure 'spCheckStudAdmissionNo'.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+04/10/2012 18:31:43
+Error Message:Input string was not in a correct format.
+Error in:System.Web.HttpApplicationState
+---------------

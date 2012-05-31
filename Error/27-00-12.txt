@@ -1,0 +1,32 @@
+
+LogEntry :
+01/27/2012 14:20:29
+Error Message:Could not find stored procedure 'spGetStaffPaySlipByLeaves'.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+01/27/2012 14:25:37
+Error Message:Could not find stored procedure 'spGetStaffPaySlipByLeaves'.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+01/27/2012 14:25:59
+Error Message:Could not find stored procedure 'spGetStaffPaySlipByLeaves'.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+01/27/2012 15:09:33
+Error Message:Cannot insert the value NULL into column 'BookIssueID', table 'JNVSchool.dbo.LibraryBookIssue'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+01/27/2012 15:09:45
+Error Message:Cannot insert the value NULL into column 'BookIssueID', table 'JNVSchool.dbo.LibraryBookIssue'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+Error in:System.Web.HttpApplicationState
+---------------

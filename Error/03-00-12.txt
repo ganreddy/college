@@ -1,0 +1,39 @@
+
+LogEntry :
+01/03/2012 19:13:07
+Error in:http://localhost/JNVSchool_1stNov/Admin/DefineReason.aspxError MessageFailed to convert parameter value from a String to a Int32.
+---------------
+
+LogEntry :
+01/03/2012 19:13:12
+Error in:http://localhost/JNVSchool_1stNov/Admin/DefineReason.aspxError MessageFailed to convert parameter value from a String to a Int32.
+---------------
+
+LogEntry :
+01/03/2012 19:16:02
+Error MessageFailed to convert parameter value from a String to a Int32.
+---------------
+
+LogEntry :
+01/03/2012 19:22:11
+Error in:http://localhost/JNVSchool_1stNov/Admin/DefineReason.aspx
+Error MessageFailed to convert parameter value from a String to a Int32.
+---------------
+
+LogEntry :
+02/03/2012 13:14:03
+Error Message:A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+02/03/2012 16:53:18
+Error Message:A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+02/03/2012 19:39:25
+Error Message:A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+Error in:System.Web.HttpApplicationState
+---------------

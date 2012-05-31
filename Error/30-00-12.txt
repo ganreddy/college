@@ -1,0 +1,36 @@
+
+LogEntry :
+04/30/2012 13:08:30
+Error Message:Could not find stored procedure 'spCheckStudAdmissionNo'.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+04/30/2012 15:39:08
+Error Message:Error converting data type numeric to decimal.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+04/30/2012 15:39:13
+Error Message:Error converting data type numeric to decimal.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+04/30/2012 15:39:34
+Error Message:Error converting data type numeric to decimal.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+04/30/2012 15:39:42
+Error Message:Error converting data type numeric to decimal.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+04/30/2012 15:39:50
+Error Message:Error converting data type numeric to decimal.
+Error in:System.Web.HttpApplicationState
+---------------

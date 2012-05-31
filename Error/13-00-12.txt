@@ -1,0 +1,6 @@
+
+LogEntry :
+04/13/2012 11:36:50
+Error Message:Could not find stored procedure 'spGetStaffPaySlipByLeaves'.
+Error in:System.Web.HttpApplicationState
+---------------

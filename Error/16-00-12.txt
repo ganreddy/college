@@ -1,0 +1,30 @@
+
+LogEntry :
+04/16/2012 11:50:32
+Error Message:Could not find stored procedure 'spGetStaffPaySlipByLeaves'.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+04/16/2012 11:59:35
+Error Message:Procedure or function 'spUpdateStudent' expects parameter '@GroupID', which was not supplied.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+04/16/2012 11:59:53
+Error Message:Procedure or function 'spUpdateStudent' expects parameter '@GroupID', which was not supplied.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+04/16/2012 12:00:21
+Error Message:Procedure or function 'spUpdateStudent' expects parameter '@GroupID', which was not supplied.
+Error in:System.Web.HttpApplicationState
+---------------
+
+LogEntry :
+04/16/2012 12:06:36
+Error Message:Could not find stored procedure 'spCheckStudAdmissionNo'.
+Error in:System.Web.HttpApplicationState
+---------------
